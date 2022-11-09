@@ -19,6 +19,7 @@
   border: none;
   background-color: var(--text-tertiary);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .burger-menu__icon-close {
@@ -71,6 +72,10 @@
   list-style-type: none;  
   margin: 0;
   padding: 0;
+}
+
+.burger-menu__link:hover {
+  opacity: 0.8;
 }
 
 .burger-menu__item:not(:last-child) {

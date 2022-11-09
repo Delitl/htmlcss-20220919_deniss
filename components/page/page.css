@@ -2,18 +2,31 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: var(--main-bg);
+}
+
+.page_inner {
+  background: var(--preview-background);
 }
 
 .page__main {
-  background: var(--preview-background);
   flex-grow: 1;
 }
 
 .page__content {
-  margin-bottom: 56px;
   padding-top: 32px;
   flex-grow: 1;
   max-width: 100%;
+}
+
+.page__main-footer {
+  margin-top: 72px;
+  margin-bottom: 136px;
+}
+
+.page__inner-footer {
+  margin-top: 56px;
+  margin-bottom: 56px;
 }
 
 @media screen and (max-width: 768px) {

@@ -3,17 +3,9 @@
   box-sizing: border-box;
   font-family: 'Inter';
   font-style: normal;
-  padding-top: 72px;
-  background: var(--main-bg);
 }
 
-.footer_inner {
-  padding-bottom: 56px;
-  padding-top: 0px;
-  background: var(--preview-background);
-}
-
-.footer__title{
+.footer__title {
   font-weight: 500;
   font-size: 38px;
   line-height: 48px;
